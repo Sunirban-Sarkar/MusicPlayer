@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Media Player
         mediaPlayer = MediaPlayer.create(this, R.raw.trial);
+        titleTextView.setText(getResources().getIdentifier("trial", "raw", getPackageName()));
         seekBar.setClickable(false);
 
         // Adding Functionalities for Button
